@@ -12,7 +12,8 @@ A professional e-learning platform tailored for Online Sharia Academy (OSA). It 
 
 Core Features for Phase 1: Online Sharia Academy
 
-User Features
+User Features:
+
 	1.	Authentication:
 	•	Secure login/signup with role-based access (Student, Teacher, Admin).
 	•	Password reset using email.
