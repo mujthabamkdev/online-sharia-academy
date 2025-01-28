@@ -16,17 +16,21 @@ User Features
 	1.	Authentication:
 	•	Secure login/signup with role-based access (Student, Teacher, Admin).
 	•	Password reset using email.
+ 
 	2.	Course Enrollment:
 	•	Students can enroll in the 5-year program.
 	•	Display enrollment status (Pending/Approved).
+ 
 	3.	Class List & Subjects:
 	•	View class schedules by subjects.
 	•	Track class progress and material (e.g., PDF, video links).
 	•	Real-time notifications for upcoming classes.
+ 
 	4.	Exam Management:
 	•	Monthly, quarterly, yearly exams with results.
 	•	Downloadable question papers and online submission.
 	•	Exam history and grades per subject.
+ 
 	5.	Live Classes:
 	•	Integration with Zoom or WebRTC for live online sessions.
 	•	Notifications for live class schedules.
