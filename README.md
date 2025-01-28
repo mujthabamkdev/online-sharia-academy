@@ -90,7 +90,8 @@ Change Detection	Optimize real-time updates like exam results and live notificat
 
 Implementation Plan:
 
-Step 1: Initial Setup
+Step 1: Initial Setup:
+
 	1.	Folder Structure:
 	•	src/app/modules/auth (Login/Signup)
 	•	src/app/modules/student (Student-specific features)
