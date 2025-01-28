@@ -42,7 +42,8 @@ User Features:
 	•	Track course progress (e.g., completed lessons, upcoming exams).
 	•	Display personalized dashboards for students.
 
-Admin/Teacher Features
+Admin/Teacher Features:
+
 	1.	User Management:
 	•	Manage students and teachers (CRUD operations).
 	•	Role-based access control for managing permissions.
@@ -60,7 +61,8 @@ Admin/Teacher Features
 
 Technical Plan
 
-Modules
+Modules:
+
 	1.	AuthModule:
 	•	Handles login, signup, and role-based authentication.
 	•	Includes route guards for secure navigation.
@@ -74,7 +76,8 @@ Modules
 	•	Reusable components like navbar, footer, and directives.
 	•	Pipes for formatting dates and grades.
 
-Key Angular Topics
+Key Angular Topics:
+
 Angular Concept	Usage in Project
 Reactive Forms	Enrollment forms, login/signup, exam creation.
 Interceptors	Add JWT tokens to secure API requests and handle errors globally.
@@ -85,7 +88,7 @@ Async Observables	Fetch real-time data for live classes, notifications, and prog
 Custom Pipes	Format grades, dates, and filter subjects by levels or categories.
 Change Detection	Optimize real-time updates like exam results and live notifications.
 
-Implementation Plan
+Implementation Plan:
 
 Step 1: Initial Setup
 	1.	Folder Structure:
@@ -100,7 +103,8 @@ Step 1: Initial Setup
 	•	Define backend endpoints (e.g., /login, /enrollment, /exams).
 	•	Use HttpClient and Interceptors for requests.
 
-Step 2: Build Core Features
+Step 2: Build Core Features:
+
 	1.	Authentication:
 	•	Role-based login.
 	•	Implement AuthGuard for securing routes.
@@ -120,7 +124,8 @@ Step 2: Build Core Features
 	7.	Weekly Assemblies:
 	•	Build a module for creating and viewing assemblies.
 
-Next Steps
+Next Steps:
+
 	1.	Let me know if you’d like help with Step 1: Initial Setup, and we can start building the folder structure and core modules.
 	2.	If you want further details for backend integration or UI design, I can help draft that too!
  
