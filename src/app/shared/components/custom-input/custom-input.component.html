@@ -1,0 +1,14 @@
+<mat-form-field appearance="outline" class="full-width"> 
+    <mat-label>{{label()}}</mat-label>
+    <input
+        matInput 
+        [type]="type()"
+        [value]="value()"
+        (input)="onInput($event)"
+        (blur)="onBlur()"
+        [class.error]="hasError()"
+    />
+    <mat-error *ngIf="hasError()">
+        {{errorMessage()}}
+    </mat-error>
+</mat-form-field>

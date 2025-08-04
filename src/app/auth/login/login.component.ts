@@ -58,5 +58,5 @@ export class LoginComponent {
         },
       });
     }
-  }
+  } 
 }

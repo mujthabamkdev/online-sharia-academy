@@ -1,1 +1,23 @@
-<p>enrollment works!</p>
+<div class="enrollment-container" fxLayout="row" fxLayoutAlign="center center">
+    <form [formGroup]="enrollmentForm" class="enrollment-form" (ngSubmit)="onSubmit()">
+        <mat-card>
+            <!-- full name -->
+            <mat-form-field class="full-width">
+                <mat-label>Full Name</mat-label>
+                <input matInput formControlName="fullName">
+            </mat-form-field>
+            <mat-error *ngIf="(enrollmentForm.get('fullName')?.touched || submitted) && enrollmentForm.get('fullName')?.hasError('required')">
+                Full name is required.
+            </mat-error>
+
+            <mat-form-field class="full-width">
+                <mat-label>Date of birth</mat-label>
+                <input matInput formControlName="dob">
+            </mat-form-field>
+            <mat-error *ngIf="(enrollmentForm.get('dob')?.touched || submitted) && enrollmentForm.get('dob')?.hasError('required')">
+                Date of birth is required.
+            </mat-error>
+
+        </mat-card>
+    </form>
+</div>
